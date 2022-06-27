@@ -22,6 +22,8 @@ To find a list of Stocks that have high volume and volatility using filters
 So that
 I can trade stocks that have potential to significantly move up and make profit
 US equity market has more than 700 stocks and finding a stock for daily trades can be a struggle. To solve this issue, This website provide a list of filters to help a day trader find stocks on play and have high potential to move up or down and provide opportunity to buy or sell. The website provides list of stocks based on the following filters: Small Cap Gainers, Aggressive Small Caps, Undervalued Large Caps, Most Actives, Day Losers, Day Gainers, Growth Technology Stocks, Undervalued Growth Stocks. User can pick one of the filters from a dropdown as shown in figure (1)
+
+![Screenshot](figure 1.png)
 Figure 1 filters
 After the user chooses the filter, top list of stocks that fulfill the requirement appears. For example, if the users chose the day losers filter, results shows stocks with biggest negative price change as shown in figure(2)
 Figure 2 losers stocks
