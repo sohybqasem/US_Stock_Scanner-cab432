@@ -2,20 +2,20 @@
 
 The stock scanner website provides filters on the US market for most active stocks of the day. Users can find stocks with highest gain and loss of the day. In addition, scanner can search for stocks with high growth and volatility. The website updates the data daily from 9am to 4pm in New York time every day. successful day traders utilize daily stocks scanner to make a trade. A stock shown in the scanner means a high volatiles and volume -buyers and sellers- which can significantly improve the day trader pick of stocks and trades. In addition to providing the stocks with most active movement, the website provides a news feed for each stock, helping the day trader understand the reason behind the stock’s movement.
 
-#Services used
+# Services used
 
-##API 1
+## API 1
 
 Rapidapi yahoo finance API Return list of stocks when a user makes an API call. Users have to determine the filter based on the once available from the API. In addition, the user can use this API to obtain certain stock quote such as the price, volume, percentage change To search specific stock symbol: Endpoint: https://yahoo-finance15.p.rapidapi.com/api/yahoo/qu/quote/{stock ticker} To search list of stocks based on chosen filter: Endpoint: https://yahoo-finance15.p.rapidapi.com/api/yahoo/co/collections/{filter} Docs: https://rapidapi.com/sparior/api/yahoo-finance15/
 
-##API 2:
+## API 2:
 
 Finnhub API Return news about a specific stock chosen by the user. The news organize in order the newest to the oldest. This api provide the headline, source, date and url link to the news website. Endpoint: https://finnhub.io/api/v1/company-news?symbol={stock name} Docs: https://finnhub.io/docs/api/market-news
 Mashup Use Cases and Services
 
-###**The user has to provide token keys to utilized the APIs.
+### **The user has to provide token keys to utilized the APIs.
 
-##Use case 1:
+## Use case 1:
 
 As a
 Day trader
@@ -31,7 +31,7 @@ After the user chooses the filter, top list of stocks that fulfill the requireme
 Figure 2 losers stocks
 ![Screenshot](https://github.com/sohybqasem/US_Stock_Scanner-cab432/blob/main/figure%202.png)
 
-##Use case 2:
+## Use case 2:
 
 As a
 Day trader
@@ -43,7 +43,7 @@ When day trader clicks on the stock, the stock’s row will expand and show head
 Figure 3 news expanded
 ![Screenshot](https://github.com/sohybqasem/US_Stock_Scanner-cab432/blob/main/figure%203.png)
 
-##Use Case 3:
+## Use Case 3:
 
 As a
 Day trader
@@ -55,7 +55,7 @@ On top of the filters dropdown, a search bar is implemented to help day trader s
 Figure 4 search stock symbol
 ![Screenshot](https://github.com/sohybqasem/US_Stock_Scanner-cab432/blob/main/figure%204.png)
 
-#Client Side 
+# Client Side 
 
 Open your terminal and then type
 
@@ -72,17 +72,17 @@ This installs the required dependencies
 To run the React project.
 $ npm start
 
-#Server Side: 
+# Server Side: 
 
-##Install MongoDb:
+## Install MongoDb:
 the Server side uses MongoDb to store data that has already been requested from the API. before running the server, install MongoDB from this link:
 https://www.mongodb.com/docs/manual/installation/
 
-##Install Redis:
+## Install Redis:
 Redis works as a cache and save recent data pulled form api to help decreasing the number of requests to api, click the link below:
 https://redis.io/docs/getting-started/installation/
 
-##Running the server:
+## Running the server:
 
 cd into the new folder and type, Server
 
